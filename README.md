@@ -17,7 +17,7 @@
 below are some screenshots demonstrating key features like recipe upload, rating system, comment section, and user authentication.
 
 1. User Login and Registration
-   ![Screenshot (568)](https://github.com/user-attachments/assets/cefdf4f9-4237-4910-ac0b-a28504b5f28c)
+   ![Screenshot (568)](https://github.com/user-attachments/assets/712c130d-2ba3-4af0-b2d1-9feb92e545e6)
 2. Home Page
    ![Screenshot (569)](https://github.com/user-attachments/assets/f2f300bb-230b-44c7-a705-0bf974e1bf0a)
 3. Edit Comment
