@@ -1,26 +1,29 @@
 1. Project Overview
-FoofieClub is a web platform made for food lovers like me, where users can share their own recipes, rate others' recipes, comment on them, and manage their own comments.
-
-It creates a small food-loving community where people can learn, appreciate, and enjoy recipes from others.
+  FoofieClub is a web platform made for food lovers like me, where users can share their own recipes, rate others' recipes, comment on them, and manage their own comments.
+  
+  It creates a small food-loving community where people can learn, appreciate, and enjoy recipes from others.
 
 2. Objective
-To build a simple recipe-sharing web app that allows:
-
-Adding your own recipe with title, ingredients, and steps
-
-Viewing and rating other users' recipes
-
-Commenting on recipes
-
-Editing and deleting your own comments
+  To build a simple recipe-sharing web app that allows:
+  
+  Adding your own recipe with title, ingredients, and steps
+  
+  Viewing and rating other users' recipes
+  
+  Commenting on recipes
+  
+  Editing and deleting your own comments
 
 3. Technologies Used
-Frontend: HTML (structure), CSS (styling), JavaScript (basic interactivity)
-
-Backend: PHP (server-side logic)
-
-Database: MySQL (data storage using XAMPP or similar)
+  Frontend: HTML (structure), CSS (styling), JavaScript (basic interactivity)
+  
+  Backend: PHP (server-side logic)
+  
+  Database: MySQL (data storage using XAMPP or similar)
 
 below are some screenshots demonstrating key features like recipe upload, rating system, comment section, and user authentication.
+
+![Screenshot (572)](https://github.com/user-attachments/assets/935a2411-b093-4156-8914-021c2b61e9cd)
+
 
 
