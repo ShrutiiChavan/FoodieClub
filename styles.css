@@ -1,0 +1,247 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #dfe9f3, #ffffff);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Welcome Text */
+h2.welcome-text {
+    color: #333;
+    font-size: xx-large;
+    text-shadow: 3px 3px 6px rgba(176, 8, 8, 0.3);
+    margin-top: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+}
+
+/* Form */
+form {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 75px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #444;
+}
+
+/* Inputs */
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+/* Buttons */
+button {
+    padding: 12px 20px;
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+    transform: scale(1.05);
+}
+
+/* List Items */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Average Rating */
+.average-rating {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff9800;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Comment Box */
+.comment {
+    padding: 12px;
+    background-color: #f8f9fa;
+    border-left: 5px solid #007bff;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Comment Meta Data */
+.comment small {
+    display: block;
+    color: #666;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Delete Button */
+.delete-form {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.delete-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.delete-btn:hover {
+    background-color: #c9302c;
+    transform: scale(1.05);
+}
+
+/* Login Form Styling */
+.login-container {
+    width: 350px;
+    margin: 80px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Login Heading */
+.login-container h2 {
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Fields */
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.login-container input:focus {
+    border-color: #28a745;
+    box-shadow: 0px 0px 8px rgba(40, 167, 69, 0.5);
+}
+
+/* Login Button */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(45deg, #28a745, #218838);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Button Hover Effect */
+.login-container button:hover {
+    background: linear-gradient(45deg, #218838, #28a745);
+    transform: scale(1.05);
+}
+
+
+.login-container .links {
+    margin-top: 12px;
+}
+
+.login-container a {
+    text-decoration: none;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+
+.auth-page {
+    background: url('club.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.auth-page .container {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    width: 150px; 
+    display: block;
+    margin: 0 auto 20px; 
+}
