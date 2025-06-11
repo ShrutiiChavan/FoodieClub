@@ -4,72 +4,60 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>FoofieClub | Home</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
     body {
-      background: #fff7f0;
-      color: #333;
+      background-color: #fff7f0;
+      font-family: 'Segoe UI', sans-serif;
     }
 
     header {
       background-color: #ffb3c6;
       padding: 20px;
       text-align: center;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      color: white;
     }
 
-    header h1 {
-      font-size: 2.5rem;
-      color: #fff;
+    nav {
+      background-color: #ffe0e9;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ff4e73;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
     }
 
     .container {
       text-align: center;
-      padding: 60px 20px;
+      padding: 40px 20px;
     }
 
-    .container h2 {
-      font-size: 2rem;
-      color: #ff6f91;
-      margin-bottom: 20px;
-    }
-
-    .container p {
-      font-size: 1.2rem;
-      max-width: 700px;
-      margin: 0 auto 30px auto;
-      line-height: 1.6;
-    }
-
-    .explore-btn {
+    .btn {
       background-color: #ff6f91;
       color: white;
-      padding: 14px 30px;
+      padding: 12px 24px;
       border: none;
-      border-radius: 30px;
+      border-radius: 25px;
       font-size: 1rem;
-      cursor: pointer;
-      transition: 0.3s ease;
       text-decoration: none;
-    }
-
-    .explore-btn:hover {
-      background-color: #ff4e73;
+      margin-top: 20px;
+      display: inline-block;
     }
 
     footer {
-      text-align: center;
-      padding: 20px;
       background-color: #ffe0e9;
-      font-size: 0.9rem;
-      color: #555;
+      text-align: center;
+      padding: 15px;
       margin-top: 40px;
+      color: #555;
     }
   </style>
 </head>
@@ -79,13 +67,24 @@
     <h1>Welcome to FoofieClub</h1>
   </header>
 
+  <nav>
+    <a href="index.php">Home</a>
+    <a href="login.php">Login</a>
+    <a href="register.php">Register</a>
+    <a href="add_recipe.php">Add Recipe</a>
+    <a href="add_comment.php">Add Comment</a>
+    <a href="edit_comment.php">Edit Comment</a>
+    <a href="delete_comment.php">Delete Comment</a>
+    <a href="add_rating.php">Add Rating</a>
+    <a href="logout.php">Logout</a>
+  </nav>
+
   <div class="container">
-    <h2>A Community for Food Lovers 🍲</h2>
+    <h2>A Place for Food Lovers Like You 🍰</h2>
     <p>
-      Share your favorite recipes, discover homemade food ideas, rate dishes, and comment on what others are cooking! 
-      Whether you're a home chef or just a foodie, FoofieClub brings us all together in one tasty space.
+      Explore recipes, post your own dishes, rate what others cook, and interact with fellow foodies. Start your Foofie journey now!
     </p>
-    <a class="explore-btn" href="recipes.php">Explore Recipes</a>
+    <a class="btn" href="add_recipe.php">Share a Recipe</a>
   </div>
 
   <footer>
